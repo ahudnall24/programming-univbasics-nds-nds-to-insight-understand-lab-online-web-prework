@@ -11,7 +11,7 @@ def pretty_print_nds(nds)
     ], # end of inner array
     [ #...and so on...
       {:Tyler_Perry=>"Acrimony", :name=>3},
-     {:=>"Tooth-Destroyers", :price=>12},# Change the code below to pretty print the nds with pp
+     {:Steven_Spilnerg=>"The Color Purple", :price=>4},# Change the code below to pretty print the nds with pp
   nil
 end
 
