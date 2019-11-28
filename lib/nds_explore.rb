@@ -3,13 +3,11 @@ require 'directors_database'
 # Call the method directors_database to retrieve the NDS
 
 def pretty_print_nds(nds)
-  [ # outermost structure is an Array
-  [ #oh, but another one immediately, so it's an AoA
-    [ # yet another!? It's an AoAoA where the inner Arrays are full of ..
-      {:name=>"Vanilla Cookies", :price=>3}, # Hashes with two keys!
-      {:name=>"Pistachio Cookies", :price=>3}, # and another Hash
-      {:name=>"Chocolate Cookies", :price=>3}, # and another Hash
-      {:name=>"Chocolate Chip Cookies", :price=>3} # and another Hash
+    
+      {:movie_title=>"The Departed", :name=>3}, # Hashes with two keys!
+      {:movie_title=>"Pistachio Cookies", :name=>3}, # and another Hash
+      {:movie_title=>"Chocolate Cookies", :name=>3}, # and another Hash
+      
     ], # end of inner array
     [ #...and so on...
       {:name=>"Tooth-Melters", :price=>12},
