@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-vm=[:Martin_Scoressee=>"The Departed",# Call the method directors_database to retrieve the NDS
+vm=[:Martin_Scoressee=>"The Departed",:name=>0},{:Quentin_Tarintino=>"Hateful Eight", :name=>1}, {:DJ_Pooh=>"Friday", :name=>2}.{:Tyler_Perry=>"Acrimony", :name=>3}, {:Steven_Spilnerg=>"The Color Purple", :price=>4},
 
 def pretty_print_nds(nds)
     
@@ -17,3 +17,4 @@ end
 
 def print_first_directors_movie_titles
 end
+
