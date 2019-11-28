@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-# Call the method directors_database to retrieve the NDS
+vm=[:movie_title=>"The Departed",# Call the method directors_database to retrieve the NDS
 
 def pretty_print_nds(nds)
     
